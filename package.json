@@ -1,0 +1,22 @@
+{
+  "name": "agent-js",
+  "version": "0.1.0",
+  "description": "JavaScript version of Agent concepts, principles and construction patterns",
+  "main": "agent.js",
+  "type": "module",
+  "scripts": {
+    "start": "node agent.js .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["agent", "ai", "react", "reasoning"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.20.1",
+    "dotenv": "^16.3.1",
+    "commander": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
