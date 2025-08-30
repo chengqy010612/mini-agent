@@ -34,7 +34,7 @@ class ReActAgent {
 
         while (true) {
             const content = await this.callModel(messages);
-
+console.log('接口返回的初始内容',content)
             const thoughtMatch = content.match(/<thought>(.*?)<\/thought>/s);
             if (thoughtMatch) {
                 console.log(`\n\n💭 Thought: ${thoughtMatch[1]}`);
